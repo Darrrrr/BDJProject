@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		450BD0A8211D2EBD00191126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BD0A7211D2EBD00191126 /* AppDelegate.m */; };
-		450BD0AB211D2EBD00191126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BD0AA211D2EBD00191126 /* ViewController.m */; };
 		450BD0AE211D2EBD00191126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450BD0AC211D2EBD00191126 /* Main.storyboard */; };
 		450BD0B0211D2EBD00191126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450BD0AF211D2EBD00191126 /* Assets.xcassets */; };
 		450BD0B3211D2EBD00191126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450BD0B1211D2EBD00191126 /* LaunchScreen.storyboard */; };
-		450BD0B6211D2EBD00191126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BD0B5211D2EBD00191126 /* main.m */; };
+		4559EA9B211D61F200FFF0FB /* DAEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EA9A211D61F200FFF0FB /* DAEssenceViewController.m */; };
+		4559EA9E211D620100FFF0FB /* DANewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EA9D211D620100FFF0FB /* DANewViewController.m */; };
+		4559EAA1211D621100FFF0FB /* DAPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAA0211D621100FFF0FB /* DAPublishViewController.m */; };
+		4559EAA4211D622B00FFF0FB /* DAFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAA3211D622B00FFF0FB /* DAFriendTrendViewController.m */; };
+		4559EAA7211D629E00FFF0FB /* DAMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAA6211D629E00FFF0FB /* DAMeViewController.m */; };
+		4559EAA8211D631000FFF0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BD0C4211D4DDE00191126 /* AppDelegate.m */; };
+		4559EAA9211D631000FFF0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BD0C3211D4DDE00191126 /* main.m */; };
+		4559EAB0211D6D7200FFF0FB /* DAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAAF211D6D7200FFF0FB /* DAMainViewController.m */; };
+		4559EAB4211D707B00FFF0FB /* UIImage+DAImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAB3211D707B00FFF0FB /* UIImage+DAImage.m */; };
+		4559EAB7211D916800FFF0FB /* DATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EAB6211D916800FFF0FB /* DATabBar.m */; };
+		4559EABB211DC14900FFF0FB /* DANavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EABA211DC14900FFF0FB /* DANavController.m */; };
+		4559EABE211DCB1200FFF0FB /* DASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559EABD211DCB1200FFF0FB /* DASettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		450BD0A3211D2EBD00191126 /* BDJProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDJProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		450BD0A6211D2EBD00191126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		450BD0A7211D2EBD00191126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		450BD0A9211D2EBD00191126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		450BD0AA211D2EBD00191126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		450BD0AD211D2EBD00191126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		450BD0AF211D2EBD00191126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450BD0B2211D2EBD00191126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450BD0B4211D2EBD00191126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		450BD0B5211D2EBD00191126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		450BD0C2211D4DDE00191126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		450BD0C3211D4DDE00191126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		450BD0C4211D4DDE00191126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4559EA99211D61F200FFF0FB /* DAEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAEssenceViewController.h; sourceTree = "<group>"; };
+		4559EA9A211D61F200FFF0FB /* DAEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAEssenceViewController.m; sourceTree = "<group>"; };
+		4559EA9C211D620100FFF0FB /* DANewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANewViewController.h; sourceTree = "<group>"; };
+		4559EA9D211D620100FFF0FB /* DANewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANewViewController.m; sourceTree = "<group>"; };
+		4559EA9F211D621100FFF0FB /* DAPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPublishViewController.h; sourceTree = "<group>"; };
+		4559EAA0211D621100FFF0FB /* DAPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPublishViewController.m; sourceTree = "<group>"; };
+		4559EAA2211D622B00FFF0FB /* DAFriendTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAFriendTrendViewController.h; sourceTree = "<group>"; };
+		4559EAA3211D622B00FFF0FB /* DAFriendTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAFriendTrendViewController.m; sourceTree = "<group>"; };
+		4559EAA5211D629E00FFF0FB /* DAMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAMeViewController.h; sourceTree = "<group>"; };
+		4559EAA6211D629E00FFF0FB /* DAMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAMeViewController.m; sourceTree = "<group>"; };
+		4559EAAE211D6D7200FFF0FB /* DAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAMainViewController.h; sourceTree = "<group>"; };
+		4559EAAF211D6D7200FFF0FB /* DAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAMainViewController.m; sourceTree = "<group>"; };
+		4559EAB2211D707B00FFF0FB /* UIImage+DAImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DAImage.h"; sourceTree = "<group>"; };
+		4559EAB3211D707B00FFF0FB /* UIImage+DAImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DAImage.m"; sourceTree = "<group>"; };
+		4559EAB5211D916800FFF0FB /* DATabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DATabBar.h; sourceTree = "<group>"; };
+		4559EAB6211D916800FFF0FB /* DATabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DATabBar.m; sourceTree = "<group>"; };
+		4559EAB8211D9EA500FFF0FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4559EAB9211DC14900FFF0FB /* DANavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANavController.h; sourceTree = "<group>"; };
+		4559EABA211DC14900FFF0FB /* DANavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANavController.m; sourceTree = "<group>"; };
+		4559EABC211DCB1200FFF0FB /* DASettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DASettingViewController.h; sourceTree = "<group>"; };
+		4559EABD211DCB1200FFF0FB /* DASettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DASettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +86,252 @@
 		450BD0A5211D2EBD00191126 /* BDJProject */ = {
 			isa = PBXGroup;
 			children = (
-				450BD0A6211D2EBD00191126 /* AppDelegate.h */,
-				450BD0A7211D2EBD00191126 /* AppDelegate.m */,
-				450BD0A9211D2EBD00191126 /* ViewController.h */,
-				450BD0AA211D2EBD00191126 /* ViewController.m */,
+				450BD0BC211D4DDE00191126 /* Classes */,
 				450BD0AC211D2EBD00191126 /* Main.storyboard */,
 				450BD0AF211D2EBD00191126 /* Assets.xcassets */,
 				450BD0B1211D2EBD00191126 /* LaunchScreen.storyboard */,
 				450BD0B4211D2EBD00191126 /* Info.plist */,
-				450BD0B5211D2EBD00191126 /* main.m */,
 			);
 			path = BDJProject;
+			sourceTree = "<group>";
+		};
+		450BD0BC211D4DDE00191126 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAAA211D6D4F00FFF0FB /* Main */,
+				450BD0C9211D4DDE00191126 /* Essence */,
+				450BD0D1211D4DDE00191126 /* New */,
+				450BD0C5211D4DDE00191126 /* Publish */,
+				450BD0BD211D4DDE00191126 /* FriendTrend */,
+				450BD0CD211D4DDE00191126 /* Me */,
+				450BD0C1211D4DDE00191126 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		450BD0BD211D4DDE00191126 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				450BD0BE211D4DDE00191126 /* Controller */,
+				450BD0BF211D4DDE00191126 /* Model */,
+				450BD0C0211D4DDE00191126 /* View */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		450BD0BE211D4DDE00191126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAA2211D622B00FFF0FB /* DAFriendTrendViewController.h */,
+				4559EAA3211D622B00FFF0FB /* DAFriendTrendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450BD0BF211D4DDE00191126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450BD0C0211D4DDE00191126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450BD0C1211D4DDE00191126 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAB1211D704B00FFF0FB /* Category */,
+				450BD0C2211D4DDE00191126 /* AppDelegate.h */,
+				450BD0C4211D4DDE00191126 /* AppDelegate.m */,
+				450BD0C3211D4DDE00191126 /* main.m */,
+				4559EAB8211D9EA500FFF0FB /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		450BD0C5211D4DDE00191126 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				450BD0C6211D4DDE00191126 /* Controller */,
+				450BD0C7211D4DDE00191126 /* Model */,
+				450BD0C8211D4DDE00191126 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		450BD0C6211D4DDE00191126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EA9F211D621100FFF0FB /* DAPublishViewController.h */,
+				4559EAA0211D621100FFF0FB /* DAPublishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450BD0C7211D4DDE00191126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450BD0C8211D4DDE00191126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450BD0C9211D4DDE00191126 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				450BD0CA211D4DDE00191126 /* Controller */,
+				450BD0CB211D4DDE00191126 /* Model */,
+				450BD0CC211D4DDE00191126 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		450BD0CA211D4DDE00191126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EA99211D61F200FFF0FB /* DAEssenceViewController.h */,
+				4559EA9A211D61F200FFF0FB /* DAEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450BD0CB211D4DDE00191126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450BD0CC211D4DDE00191126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450BD0CD211D4DDE00191126 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				450BD0CE211D4DDE00191126 /* Controller */,
+				450BD0CF211D4DDE00191126 /* Model */,
+				450BD0D0211D4DDE00191126 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		450BD0CE211D4DDE00191126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAA5211D629E00FFF0FB /* DAMeViewController.h */,
+				4559EAA6211D629E00FFF0FB /* DAMeViewController.m */,
+				4559EABC211DCB1200FFF0FB /* DASettingViewController.h */,
+				4559EABD211DCB1200FFF0FB /* DASettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450BD0CF211D4DDE00191126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450BD0D0211D4DDE00191126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450BD0D1211D4DDE00191126 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				450BD0D2211D4DDE00191126 /* Controller */,
+				450BD0D3211D4DDE00191126 /* Model */,
+				450BD0D4211D4DDE00191126 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		450BD0D2211D4DDE00191126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EA9C211D620100FFF0FB /* DANewViewController.h */,
+				4559EA9D211D620100FFF0FB /* DANewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450BD0D3211D4DDE00191126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450BD0D4211D4DDE00191126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4559EAAA211D6D4F00FFF0FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAAB211D6D4F00FFF0FB /* Controller */,
+				4559EAAC211D6D4F00FFF0FB /* Model */,
+				4559EAAD211D6D4F00FFF0FB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4559EAAB211D6D4F00FFF0FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAAE211D6D7200FFF0FB /* DAMainViewController.h */,
+				4559EAAF211D6D7200FFF0FB /* DAMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4559EAAC211D6D4F00FFF0FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4559EAAD211D6D4F00FFF0FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAB5211D916800FFF0FB /* DATabBar.h */,
+				4559EAB6211D916800FFF0FB /* DATabBar.m */,
+				4559EAB9211DC14900FFF0FB /* DANavController.h */,
+				4559EABA211DC14900FFF0FB /* DANavController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4559EAB1211D704B00FFF0FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4559EAB2211D707B00FFF0FB /* UIImage+DAImage.h */,
+				4559EAB3211D707B00FFF0FB /* UIImage+DAImage.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +360,7 @@
 		450BD09B211D2EBD00191126 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DA;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = gzy;
 				TargetAttributes = {
@@ -142,9 +406,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450BD0AB211D2EBD00191126 /* ViewController.m in Sources */,
-				450BD0B6211D2EBD00191126 /* main.m in Sources */,
-				450BD0A8211D2EBD00191126 /* AppDelegate.m in Sources */,
+				4559EAA8211D631000FFF0FB /* AppDelegate.m in Sources */,
+				4559EAA9211D631000FFF0FB /* main.m in Sources */,
+				4559EAB7211D916800FFF0FB /* DATabBar.m in Sources */,
+				4559EAB0211D6D7200FFF0FB /* DAMainViewController.m in Sources */,
+				4559EAA7211D629E00FFF0FB /* DAMeViewController.m in Sources */,
+				4559EAB4211D707B00FFF0FB /* UIImage+DAImage.m in Sources */,
+				4559EA9E211D620100FFF0FB /* DANewViewController.m in Sources */,
+				4559EAA4211D622B00FFF0FB /* DAFriendTrendViewController.m in Sources */,
+				4559EA9B211D61F200FFF0FB /* DAEssenceViewController.m in Sources */,
+				4559EABB211DC14900FFF0FB /* DANavController.m in Sources */,
+				4559EABE211DCB1200FFF0FB /* DASettingViewController.m in Sources */,
+				4559EAA1211D621100FFF0FB /* DAPublishViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +553,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62D6FY6CPG;
+				GCC_PREFIX_HEADER = BDJProject/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = BDJProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzy.BDJProject;
@@ -294,6 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62D6FY6CPG;
+				GCC_PREFIX_HEADER = BDJProject/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = BDJProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzy.BDJProject;

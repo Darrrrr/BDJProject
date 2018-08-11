@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DASettingViewController.h
 //  BDJProject
 //
 //  Created by gzy on 2018/8/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DASettingViewController : UITableViewController
 
 @end
-

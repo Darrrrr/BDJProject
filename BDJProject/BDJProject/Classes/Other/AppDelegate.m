@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+
+#import "DAMainViewController.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+  
+    DAMainViewController *tabVC = [[DAMainViewController alloc]init];
+    self.window.rootViewController = tabVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
